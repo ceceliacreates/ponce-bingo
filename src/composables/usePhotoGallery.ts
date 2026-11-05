@@ -11,7 +11,6 @@ export const usePhotoGallery = () => {
       const photo = await Camera.getPhoto({
         resultType: CameraResultType.Uri,
         quality: 100,
-        direction: CameraDirection.Front,
         saveToGallery: true
       });
 
