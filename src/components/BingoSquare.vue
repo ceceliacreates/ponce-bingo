@@ -12,11 +12,11 @@
     </ion-header>
     <ion-content class="ion-padding">
       <p>
-        <b>Tap the blue camera icon to take a selfie with someone who:</b>
+        <b>Tap the blue camera icon to take a picture of the following bingo item:</b>
       </p>
       <p>{{ item?.text }}</p>
       <div class="photo">
-        <ion-img :src="item.photo?.webviewPath || './images/selfieplaceholder.png'"></ion-img>
+        <ion-img :src="item.photo?.webviewPath || './images/bingophotoplaceholder.png'"></ion-img>
         <ion-button @click="handlePhoto">
           <ion-icon :icon="camera"></ion-icon>
         </ion-button>
