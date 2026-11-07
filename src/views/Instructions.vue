@@ -21,7 +21,6 @@
         <li>Once you have four squares in a row (including diagonally), you win!</li>
       </ol>
       <p>Your progress is saved even if you close out of the app. If something goes wrong, you can reset the game from the Settings tab.</p>
-      <p>Happy networking!!</p>
       </div>
     </ion-content>
   </ion-page>
