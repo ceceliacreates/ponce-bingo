@@ -12,11 +12,11 @@
         </ion-toolbar>
       </ion-header>
       <div class="instructions">
-        <p>Network and capture the memories with a selfie version of icebreaker bingo!</p>
+        <p>Play a photo-based bingo game at Ponce City Market!</p>
       <ol>
         <li>Tap a bingo square to view the full text of the prompt.</li>
-        <li>Find a person that matches the prompt.</li>
-        <li>Tap the blue camera icon to capture a selfie with them!</li>
+        <li>Find something within Ponce City Market that matches the prompt.</li>
+        <li>Tap the blue camera icon to take a photo!</li>
         <li>Tap "Mark Complete".</li>
         <li>Once you have four squares in a row (including diagonally), you win!</li>
       </ol>
