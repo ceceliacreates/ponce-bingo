@@ -21,22 +21,22 @@ import { Preferences } from '@capacitor/preferences';
 //ADD AI-generate new game option - not MVP
 
 const items = [
-  'Is involved with the nonprofit that provides hygiene and laundry services',
- 'Is involved with the nonprofit founded in 1982', 
- 'Is involved with the nonprofit that aims to "light up the darkness"', 
- 'Is involved with the nonprofit that is the most comprehensive AIDS service organization in the Southeast', 
- 'Is involved with the nonprofit that operates a thrift store',
-  'Is involved with the nonprofit that provides shelter and services to queer youth', 
-  'Has attended an Out in Tech event before', 
-  'Has performed on a stage', 
-  'Has walked in a Pride parade', 
-  'Was born in Atlanta',
-  'Has run a marathon or half-marathon', 
-  'Works from home', 
-  'Has lived in another country', 
-  'Is involved with Atlanta Pride Run 5K for the first time this year', 
-  'Has attended an Atlanta pro sports game (Dream, Falcons, Vibe, etc.) in the past year',
-  'Has ridden the MARTA in the past month', 
+  'placeholder bingo item',
+ 'placeholder bingo item', 
+ 'placeholder bingo item', 
+ 'placeholder bingo item', 
+ 'placeholder bingo item',
+  'placeholder bingo item', 
+  'placeholder bingo item', 
+  'placeholder bingo item', 
+  'placeholder bingo item', 
+  'placeholder bingo item',
+  'placeholder bingo item', 
+  'placeholder bingo item', 
+  'placeholder bingo item', 
+  'placeholder bingo item', 
+  'placeholder bingo item',
+  'placeholder bingo item', 
 ];
 
 const shuffle = (array: string[])  => {
