@@ -20,6 +20,10 @@
         <ion-button @click="handlePhoto">
           <ion-icon :icon="camera"></ion-icon>
         </ion-button>
+        <ion-button v-if="item.photo?.webviewPath && !canSaveToGalleryNatively" color="secondary" @click="savePhotoToDevice(item.photo)">
+          <ion-icon :icon="download" slot="start"></ion-icon>
+          Save to Photos
+        </ion-button>
         <div>
           <ion-button :color="item.completed ? 'medium' : 'success'" :disabled="item.completed" @click="markComplete()">{{ item.completed ? 'Already Complete' : 'Mark Complete' }}</ion-button>
         </div>
@@ -32,7 +36,7 @@
 import { IonCard, IonModal, IonHeader,IonContent, IonToolbar, IonButton, IonTitle, IonButtons, IonIcon, IonImg } from '@ionic/vue';
 import { PropType, ref, inject } from 'vue';
 import { BingoItem, BingoItemsProvider } from '@/types'; 
-import { camera } from 'ionicons/icons';
+import { camera, download } from 'ionicons/icons';
 import { usePhotoGallery } from '@/composables/usePhotoGallery';
 
 const emit = defineEmits(['markComplete'])
@@ -61,7 +65,7 @@ emit('markComplete', props.item.id)
 modal.value.$el.dismiss();
 }
 
-const { takePhoto, savedFileImage } = usePhotoGallery();
+const { takePhoto, savedFileImage, savePhotoToDevice, canSaveToGalleryNatively } = usePhotoGallery();
 
 const { addPhoto } = inject<BingoItemsProvider>('bingoItems')!
 
