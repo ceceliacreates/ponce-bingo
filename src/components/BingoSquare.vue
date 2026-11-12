@@ -16,7 +16,7 @@
       </p>
       <p>{{ item?.text }}</p>
       <div class="photo">
-        <ion-img :src="item.photo?.webviewPath || './images/bingophotoplaceholder.png'"></ion-img>
+        <ion-img :src="item.photo?.webviewPath || './images/bingophotoplaceholder.svg'"></ion-img>
         <ion-button @click="handlePhoto">
           <ion-icon :icon="camera"></ion-icon>
         </ion-button>
