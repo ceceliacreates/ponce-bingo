@@ -21,22 +21,22 @@ import { Preferences } from '@capacitor/preferences';
 //ADD AI-generate new game option - not MVP
 
 const items = [
- 'Is involved with the nonprofit that provides hygiene and laundry services',
- 'Is involved with the nonprofit founded in 1982', 
- 'Is involved with the nonprofit that aims to "light up the darkness"', 
- 'Is involved with the nonprofit that is the most comprehensive AIDS service organization in the Southeast', 
- 'Is involved with the nonprofit that operates a thrift store',
-  'Is involved with the nonprofit that provides shelter and services to queer youth', 
-  'Has attended an Out in Tech event before', 
-  'Has performed on a stage', 
-  'Has walked in a Pride parade', 
-  'Was born in Atlanta',
-  'Has run a marathon or half-marathon', 
-  'Works from home', 
-  'Has lived in another country', 
-  'Is involved with Atlanta Pride Run 5K for the first time this year', 
-  'Has attended an Atlanta pro sports game (Dream, Falcons, Vibe, etc.) in the past year',
-  'Has ridden the MARTA in the past month', 
+  'Find the Central Food Hall',
+  'Take a group photo on the Atlanta BeltLine',
+  'Spot a dog out for a walk',
+  'Find a mural or piece of public art',
+  'Find a bookstore',
+  'Find a place that sells ice cream or gelato',
+  'Find a coffee shop',
+  'Find something for sale that is handmade or one-of-a-kind',
+  'Spot the water tower on top of the building',
+  'Find the elevator that goes up to the roof',
+  'Find something for sale with "Atlanta" or "ATL" on it',
+  'Find a peach anywhere (on a menu, a sign, or merchandise)',
+  'Find a menu with a cuisine nobody in your group has tried',
+  'Find a spot where you can see the Atlanta skyline',
+  'Spot someone riding a bike or scooter',
+  'Find a store that sells furniture',
 ];
 
 const shuffle = (array: string[])  => {
